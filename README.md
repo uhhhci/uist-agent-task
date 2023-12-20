@@ -6,7 +6,7 @@ In this exercise you will be tasked to create a chat app where the user can chat
 
 ### Preparation
 
-- Clone this Unity project using `git clone`
+- Clone this Unity project using `git clone https://github.com/uhhhci/uist-agent-task.git`
 - Open the project using Unity version `2019.4.**` (Tested with `2019.4.37f1`)
 - Open the scene `Assets/Scenes/AgentChat.unity`
 - Download `ggml-mpt-7b-chat.bin` from Moodle or the link and place it in `Assets\StreamingAssets\Gpt4All` Link: <https://gpt4all.io/models/ggml-mpt-7b-chat.bin> (Around 4.8 GB)
