@@ -8,6 +8,7 @@ In this exercise you will be tasked to create a chat app where the user can chat
 
 - Clone this Unity project using `git clone https://github.com/uhhhci/uist-agent-task.git`
 - Open the project using Unity version `2019.4.**` (Tested with `2019.4.37f1`)
+  - Use a newer version if you want to try out the new UI Toolkit (see below)
 - Open the scene `Assets/Scenes/AgentChat.unity`
 - Download `ggml-mpt-7b-chat.bin` from Moodle or the link and place it in `Assets\StreamingAssets\Gpt4All` Link: <https://gpt4all.io/models/ggml-mpt-7b-chat.bin> (Around 4.8 GB)
   - To make sure the model is downloaded, run the scene once and check the console for:
@@ -41,7 +42,7 @@ In this exercise you will be tasked to create a chat app where the user can chat
 
 - Add an idle animation to the Agent (e.g. blinking)
 - The agent should have more than 2 animations (e.g. idle, talking, thinking) (Instead of the indicator, the agent should be animated while thinking, e.g. question marks above the head)
-- Give the agent a voice (e.g. playing audio, only while the agent is talking)
+- Give the agent a voice (e.g. playing audio, only while the agent is talking) - i.e. play random audio noises that simulate talking.
 
 ### Support
 
@@ -57,13 +58,22 @@ In this exercise you will be tasked to create a chat app where the user can chat
 - The `Canvas` object is configured correctly and does not have to be changed, but it's child objects are not necessarily configured correctly. Feel free to use the components that are already attached to the objects, but you can also remove them, move them and add your own components.
 - Also feel free to create your own sprites and animations. Just make sure your final result meets the criteria above.
 
+### NEW THIS YEAR
+
+- Unity now offers an additional toolkit to create UIs
+  - https://unity.com/blog/unity-6-ui-toolkit-updates
+  - https://docs.unity3d.com/Manual/UIElements.html
+- Both are supported. You can decide for your Team which you prefer to use / learn.
+  - Comparison: https://docs.unity3d.com/Manual/UI-system-compare.html
+- Add a README to your Project which explains which UI tool you used.
+
 ### What to turn in
 
 **As a group, please upload the following files:**
 
 - The complete "`Asset`" folder **without(!!)** the LLM model (StreamingAssets/Gpt4All/ggml-mpt-7b-chat.bin)
 
-#### General UI Structure example
+#### General UI Structure example for Unity UI (uGUI)
 
 ```txt
 Canvas
