@@ -1,4 +1,4 @@
-# UIST Exercise 5
+# UIST Exercise
 
 ## Creating a 2D chat agent
 
